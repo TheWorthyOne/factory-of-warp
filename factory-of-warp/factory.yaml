@@ -1,0 +1,16 @@
+schemaVersion: v1alpha1
+name: Website Downs
+alias: frank-the-foreman
+credentialStrategy: EXECUTOR
+codeForges:
+    - GITHUB
+repositories:
+    - owner: TheWorthyOne
+      name: Website-downloader
+integrations: []
+agentDefaults:
+    model: auto-genius
+    runner: default
+    mcpServers:
+        Composio:
+            warpId: 01a169fe-f237-7212-bb72-1a2dbf7a6f39
